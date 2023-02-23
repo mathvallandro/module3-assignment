@@ -1,0 +1,350 @@
+body {
+	background-color: #fff;
+	font-family: League Spartan;
+	font-size: 16px;
+}
+
+/** HEADER **/
+.navbar {
+	background-color: #fff;
+	border-bottom: 3.5px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar>.container {
+	justify-content: flex-start;
+}
+
+.navbar h1 {
+	line-height: 0.75;
+	margin-top: 39px;
+}
+.navbar #konkalma {
+	color: #f2d4bc;
+	font-size: 2em;
+	font-weight: bold;
+}
+.navbar #bvcuisine {
+	font-size: 1.16em;
+	font-weight: bold;
+}
+.navbar a:hover, .navbar a:focus {
+	text-decoration: none;
+}
+
+#logoimage {
+	width: 100px;
+	margin: 7px 0px 7px 0;
+}
+
+.navbar-toggler {
+	position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.container {
+	margin-right: 0px;
+	margin-left: 16px;
+	padding: 0px;
+	width: 100%;
+}
+
+#nav-list {
+	padding-right: 12px;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+#nav-list a:hover {
+	opacity: 45%;
+}
+#phone {
+	width: 170px;
+	margin-top: 4.5px;
+	line-height: 26.5px;
+}
+#phone span {
+	font-weight: bold;
+}
+#phone div {
+	text-align: center;
+}
+@media	(max-width: 767px) {
+	#title_box {
+		padding-top: 10px;
+		font-size: 5vw;
+		display: block;
+	}
+	.navbar-toggler {
+		float: right;
+	}
+	.container {
+	margin-right: 0px;
+	margin-left: 16px;
+	padding-bottom: 23px;
+	width: auto;
+	}
+
+	#nav-list {
+		padding: 0px;
+	}
+	.bi {
+		margin-right: 5px;
+	}
+	#phone {
+		width: 100%;
+		margin-top: 4.5px;
+		line-height: 26.5px;
+	}
+	#phone span {
+		font-weight: bold;
+		display: block;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.panel-footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.panel-footer section:nth-child(3) {
+		margin-bottom: 0;
+	}
+	.panel-footer section hr {
+		width: 50%;
+		color: white;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.img-fluid {
+	width: 100%;
+	margin-bottom: 52.5px;
+}
+#main-content.container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 52.5px;
+	margin-bottom: 52.5px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url(Mexican-Street-Corn-Risotto-Final-7-500x500.jpeg) no-repeat;
+	background-position: center;
+}
+#specials-tile {
+	background: url(maxresdefault.jpeg) no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000000;
+	color: #ffffff;
+	opacity: 0.8;
+}
+iframe {
+	width: 100%;
+}
+
+@media (max-width: 479px) {
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	.col-6 {
+	  position: relative;
+	  min-height: 1px;
+	  padding-right: 15px;
+	  padding-left: 15px;
+	  float: left;
+	  width: 100%;
+	}
+}
+
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.panel-footer div.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#hours, #address, #testimonials {
+	color: white;
+}
+
+.text-center {
+	color: #f2d4bc;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+#hours, #address {
+	line-height: 2;
+}
+
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+
+#address p {
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+
+#testimonials {
+	font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title {
+  margin-bottom: 50px;
+}
+
+
+/*--*/
+
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#vzn {
+	font-size: 0.7em;
+	letter-spacing: 0.1em;
+}
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+}
+.menu-item-tile .col-sm-5 {
+	padding-right: 6px;
+}
+.menu-item-tile .img-responsive {
+	width: 100%;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid black; 
+  overflow: hidden;
+  padding: 0;
+  margin-left: auto;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: black;
+  color: #f2d4bc;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+@media	(max-width: 575px) {
+	.menu-item-photo {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.menu-item-price {
+		text-align: center !important;
+	}
+	h3.menu-item-title {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.menu-item-details {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.menu-item-description {
+	    padding-right: 12px !important;
+	    padding-left: 12px !important;
+	}
+}
+
